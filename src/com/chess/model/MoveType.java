@@ -1,0 +1,14 @@
+package com.chess.model;
+
+/**
+ * Types of moves in a chess game.
+ */
+public enum MoveType {
+    NORMAL,
+    CAPTURE,
+    EN_PASSANT,
+    CASTLE_KINGSIDE,
+    CASTLE_QUEENSIDE,
+    PROMOTION,
+    PROMOTION_CAPTURE
+}
