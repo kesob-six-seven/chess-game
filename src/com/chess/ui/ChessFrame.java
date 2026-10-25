@@ -32,7 +32,7 @@ public class ChessFrame extends JFrame {
     private final InfoPanel infoPanel;
 
     public ChessFrame() {
-        super("Java Chess - Local 1v1");
+        super("Practice Project (Chess Game Using Java)");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setMinimumSize(new Dimension(840, 680));
         setPreferredSize(new Dimension(980, 750));
@@ -189,11 +189,11 @@ public class ChessFrame extends JFrame {
 
     private void showAboutDialog() {
         String msg = "<html><body style='text-align: center; width: 280px; padding: 10px;'>" +
-                "<h2>Java Chess 1v1</h2>" +
-                "<p>A complete 2-player local chess experience built purely with modern Java & Swing.</p>" +
-                "<p>Custom vector piece graphics, procedural tactical audio, clock timers, move logs, and full chess rules.</p>" +
+                "<h2>Practice Project</h2>" +
+                "<p><b>Chess Game Using Java</b></p>" +
+                "<p>A 1v1 local chess game built with modern Java & Swing.</p>" +
                 "<p><small>Enjoy playing with your friend!</small></p>" +
                 "</body></html>";
-        JOptionPane.showMessageDialog(this, msg, "About Java Chess", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(this, msg, "About Practice Project", JOptionPane.INFORMATION_MESSAGE);
     }
 }
